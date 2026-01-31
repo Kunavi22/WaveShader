@@ -7,7 +7,7 @@ public class MouseDetector : MonoBehaviour
 
     [SerializeField] private Material drawMat;
 
-    [Range(0.001f, 0.7f)] private float radius = 0.05f;
+    [SerializeField][Range(0.001f, 0.7f)] private float radius = 0.05f;
 
 
 
